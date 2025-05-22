@@ -1,9 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <RouterLink to="/">Home</RouterLink> |
+    <RouterLink to="/exchange-rate">Exchante Rate</RouterLink> |
+    <RouterLink to="/about">About</RouterLink>
   </nav>
-  <router-view/>
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style>
