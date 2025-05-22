@@ -16,10 +16,15 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/exchange-rate',
-    name: 'exchange-rate',
-    component: () => import('../views/ExchangeRateView.vue')
+    path: '/exchange-rate-options',
+    name: 'exchange-rate-options-api',
+    component: () => import('../views/ExchangeRateOptionsView.vue')
   },
+  {
+    path: '/exchange-rate-composition',
+    name: 'exchange-rate-composition-api',
+    component: () => import('../views/ExchangeRateCompositionView.vue')
+  }
 ]
 
 const router = createRouter({

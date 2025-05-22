@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Taux de change des devises</h1>
+    <h1>Taux de change des devises (API Composition)</h1>
     <table>
       <thead>
         <tr>

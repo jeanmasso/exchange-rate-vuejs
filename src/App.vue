@@ -1,7 +1,8 @@
 <template>
   <nav>
     <RouterLink to="/">Home</RouterLink> |
-    <RouterLink to="/exchange-rate">Exchante Rate</RouterLink> |
+    <RouterLink to="/exchange-rate-options">Exchante Rate (API Options)</RouterLink> |
+    <RouterLink to="/exchange-rate-composition">Exchante Rate (API Composition)</RouterLink> |
     <RouterLink to="/about">About</RouterLink>
   </nav>
   <main>
