@@ -1,4 +1,4 @@
-# projet-vue-masso-jean
+# Exchange Rate VueJS
 
 ## Project setup
 ```
